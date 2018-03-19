@@ -36,11 +36,3 @@ class Disciplina
 		return "#{@@nomeDisciplina} #{@@horas} #{mediaNotas} #{@@notas}"
 	end
 end
-
-
-d = Disciplina.new("sla")
-d.cadastraNota(1,5)
-d.mediaNotas
-d.toString
-d.cadastrarHoras(5)
-d.toString
